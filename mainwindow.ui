@@ -95,7 +95,7 @@ background-color: rgb(68, 68, 68);</string>
      <string/>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="Label_Name">
     <property name="geometry">
      <rect>
       <x>122</x>
@@ -105,7 +105,7 @@ background-color: rgb(68, 68, 68);</string>
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="Label_Password">
     <property name="geometry">
      <rect>
       <x>120</x>
@@ -115,7 +115,7 @@ background-color: rgb(68, 68, 68);</string>
      </rect>
     </property>
    </widget>
-   <widget class="QLabel" name="label_5">
+   <widget class="QLabel" name="ID_Label">
     <property name="geometry">
      <rect>
       <x>50</x>
@@ -136,7 +136,7 @@ background-color: rgb(68, 68, 68);</string>
      <string>ID:</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_6">
+   <widget class="QLabel" name="Label_Balance">
     <property name="geometry">
      <rect>
       <x>50</x>
@@ -157,11 +157,11 @@ background-color: rgb(68, 68, 68);</string>
      <string>Balance:</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="pushButton_SignIn">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>270</y>
+      <x>50</x>
+      <y>250</y>
       <width>141</width>
       <height>41</height>
      </rect>
@@ -173,7 +173,7 @@ background-color: rgb(68, 68, 68);</string>
      <string>Sign In</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_7">
+   <widget class="QLabel" name="Label_ID_Reveal">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -186,7 +186,7 @@ background-color: rgb(68, 68, 68);</string>
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label_8">
+   <widget class="QLabel" name="Label_Balance_Reveal">
     <property name="geometry">
      <rect>
       <x>120</x>
@@ -304,6 +304,22 @@ background-color: rgb(68, 68, 68);</string>
     </property>
     <property name="text">
      <string>Buy Book</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Label_LogIn_Message">
+    <property name="geometry">
+     <rect>
+      <x>74</x>
+      <y>220</y>
+      <width>231</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Sign in Status</string>
     </property>
    </widget>
   </widget>
