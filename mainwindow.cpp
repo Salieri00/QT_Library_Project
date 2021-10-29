@@ -15,8 +15,8 @@ MainWindow::~MainWindow()
 }
 
 bool MainWindow::LogIn(QString userName, QString userPassword) {
-
-for (int i=0; i<=2;i++)
+int i,j;
+for (i=0; i<=2;i++)
 {
     if (userName==Names[i]){
         NameFound=true;
@@ -25,9 +25,9 @@ for (int i=0; i<=2;i++)
         NameFound=false;
     }
 }
-for (int j=0; j<=3;j++)
+for (j=0; j<=3;j++)
 {
-    if (userPassword.toInt()==Passwords[j]){
+    if (userPassword.toInt()==Passwords[j] && i==j){
         Passwordfound=true;
     break;}
     else {
